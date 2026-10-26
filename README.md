@@ -217,7 +217,7 @@ Interactive tools that answer common governance questions without a signup. Each
 - [HashiCorp Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework for Terraform, Vault, Consul, and Nomad. Useful for governing infrastructure provisioned by AI agents.
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Ory Keto](https://github.com/ory/keto) - Open-source permission server implementing Google Zanzibar's relation-based access control model for fine-grained agent tool permissions.
-- [Submilli](https://github.com/submilli/submilli-runtime) - Secure runtime for code-mode agents: isolation, governance, durability and semantic permissions. The user defines semantic permissions (operations, resources and argument values; default deny, optional human approval) and the runtime enforces them. Each program runs in its own WebAssembly sandbox, and execution is durable by default and survives restarts. Apache-2.0.
+- [Submilli](https://github.com/submilli/submilli-runtime) - Secure runtime for code-mode agents. Each program runs in its own WebAssembly sandbox, and you decide what it may do: semantic permissions over operations, resources and argument values, default deny, with optional human approval. Runs are durable by default: after a restart they resume where they left off, without repeating finished steps. Apache-2.0.
 
 ---
 
